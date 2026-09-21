@@ -7,6 +7,7 @@ int main()
 
     p = malloc(5 * sizeof(int));
     printf("malloc completed\n");
+    free(p);
 
     p = calloc(5, sizeof(int));
     printf("calloc completed\n");
@@ -19,7 +20,6 @@ int main()
 
     return 0;
 }
-
 
    ========================================================================================================================================
 
